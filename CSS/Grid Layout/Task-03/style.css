@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 10px;
+    background-color: white;
+}
+
+.header {
+    grid-column: span 4;
+    text-align: center;
+    align-content: center;
+    background-color: #1564c0;
+    color: white;
+}
+
+.footer {
+    grid-column: span 4;
+    text-align: center;
+    align-content: center;
+    background-color: #e1f1ff;
+}
+
+.card {
+    padding: 20px 0 0 20px;
+    background-color: rgb(227, 227, 227);
+}
+
+#grid-container div:nth-child(2) {
+    margin-left: 10px;
+}
+
+#grid-container div:nth-child(5) {
+    margin-right: 10px;
+}

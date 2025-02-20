@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+#container {
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li:nth-child(even) {
+    background-color: gray;
+}
+
+li:nth-child(1) {
+    font-weight: bold;
+}
+
+li:nth-last-child(1) {
+    font-style: italic;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color: red;
+}
+
+#pseudo-elements-para2::first-letter {
+    color: brown;
+    font-size: 1.5rem;
+}
+
+#pseudo-elements-para2::first-line {
+    font-size: 1.2rem;
+    color: blue;
+}
+
+div:nth-of-type(3n)::before {
+    display: block;
+    content: 'generated-content';
+    background: linear-gradient(red, blue, green);
+    color: white;
+}
+
+.featured:hover {
+    border: 2px solid green;
+}
+
+blockquote::before {
+    content: '\201C'
+}
+
+blockquote::after {
+    content: '\201D- Franklin D.Roosevelt';
+}
+
+blockquote {
+    text-wrap: nowrap;
+}

@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+.header {
+    grid-column: span 3;
+    background-color: #1564c0;
+}
+
+.footer {
+    grid-column: span 3;
+    background-color: #e1f1ff;
+    color:black;
+    text-align: center;
+    align-content: center;
+}
+
+.left {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.main {
+    background-color: rgb(227,227,227);
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+.right {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.card {
+    color: white;
+    text-align: center;
+    align-content: center;
+}

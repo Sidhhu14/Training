@@ -1,0 +1,114 @@
+:root {
+    --red-color: #ff0000;
+    --black-color: black;
+    --blue-color: #0000ff;
+    --yellow-color: #ffff00;
+    --white-color: #ffffff;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#parent {
+    height: 100%;
+    background-color: var(--black-color);
+}
+
+#col-1 {
+    width: 45%;
+}
+
+#col-2 {
+    width: 10%;
+}
+
+#col-3 {
+    width: 45%;
+}
+
+#col-1-block-1 {
+    height: calc(60% + 10px);
+    background-color: var(--red-color);
+    margin: 0 10px 10px 0;
+}
+
+#col-1-block-2 {
+    height: 40%;
+    background-color: var(--white-color);
+    margin: 0 10px 0 0;
+}
+
+#col-2-block-1 {
+    height: 10%;
+    background-color: var(--yellow-color);
+    margin: 0 0 10px 0;
+}
+
+#col-2-block-2 {
+    height: 50%;
+    background-color: var(--white-color);
+    margin: 0 0 10px 0;
+}
+
+#col-2-block-3 {
+    height: 40%;
+    background-color: var(--blue-color);
+}
+
+#col-3-upper {
+    height: 50%;
+    margin: 0 0 10px 10px;
+}
+
+#col-3-lower {
+    height: 50%;
+    background-color: var(--yellow-color);
+    margin: 10px 0 0 10px;
+}
+
+#col-3-upper-block-1 {
+    width: 80%;
+    margin: 0 10px 0 0;
+}
+
+#col-3-upper-block-2 {
+    width: 20%;
+}
+
+#upper-block-1-subblock-1 {
+    height: 80%;
+    background-color: var(--white-color);
+    margin: 0 0 10px 0;
+}
+
+#upper-block-1-subblock-2 {
+    height: 20%;
+    background-color: var(--blue-color);
+}
+
+#upper-block-2-subblock-1 {
+    height: 20%;
+    background-color: var(--red-color);
+    margin: 0 0 10px 0;
+}
+
+#upper-block-2-subblock-2 {
+    height: 80%;
+    background-color: var(--white-color);
+}

@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+.header {
+    grid-column: span 3;
+    color:white;
+    text-align: center;
+    align-content: center;
+    background-color: #1564c0;
+}
+.footer{
+    background-color: #e1f1ff;
+    grid-column: span 3;
+    text-align: center;
+    align-content: center;
+}
+.article-1 {
+    padding: 20px;
+    grid-column: span 2;
+}
+
+.article-2 {
+    background-color: rgb(227,227,227);
+    padding: 20px;
+}
+
+.card {
+    padding: 20px 0 0 20px;
+}

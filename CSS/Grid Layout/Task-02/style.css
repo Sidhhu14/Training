@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    /* gap: 10px; */
+}
+
+.header {
+    grid-column: 1/-1;
+    background-color: #1564c0;
+    color:white;
+    text-align: center;
+}
+
+.footer {
+    grid-column: 1/-2;
+    background-color: #e1f1ff;
+    text-align: center;
+    align-content: center;
+    /* color:white; */
+}
+
+.menu {
+    background-color: white;
+    padding: 20px 0 0 0;
+    text-align: center;
+    border-right:1px solid #e5e5e5;
+}
+
+.main {
+    background-color: rgb(227,227,227);
+    padding: 20px;
+}
+
+.aside {
+    grid-row: 2/-1;
+    grid-column: -1/-2;
+    background-color: white;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.card {
+    /* align-content: center; */
+    padding: 0 0 0 20px;
+}
