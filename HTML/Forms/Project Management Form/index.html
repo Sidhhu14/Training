@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Details Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <h1>Project Management</h1>
+        <form>
+            <div class="form-project-name container">
+                <label for="projectname">Project Name</label>
+                <input type="text" id="projectname" name="projectname" placeholder="project name">
+            </div>
+            <div class="form-assigned-to container">
+                <label for="country">Assigned to</label>
+                <select name="country" id="country">
+                    <option value="" disabled selected>Er Merry Petision</option>
+                </select>
+            </div>
+            <div class="form-start-date container">
+                <label for="startdate">Start date</label>
+                <input type="date" id="startdate" name="project-start" />
+            </div>
+            <div class="form-end-date container">
+                <label for="enddate">End date</label>
+                <input type="date" id="enddate" name="project-end" />
+            </div>
+            <div class="form-priority container">
+                <label>Priority</label>
+                <div class="form-priority-options">
+                    <div>
+                        <label for="high"><input type="radio" name="priority" id="high" />High</label>
+                    </div>
+                    <div>
+                        <label for="average"><input type="radio" name="priority" id="average" />Average</label>
+                    </div>
+                    <div>
+                        <label for="low"><input type="radio" name="priority" id="low" />Low</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-description container">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" rows="5"></textarea>
+            </div>
+            <div class="form-buttons">
+                <input type="button" id="submit" name="submit" value="Submit" />
+                <input type="button" id="clear" name="clear" value="Clear">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

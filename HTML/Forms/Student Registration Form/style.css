@@ -1,0 +1,129 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffbfcc;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#form-container {
+    width: 30%;
+    padding: 20px;
+    background-color: #add9e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+hr {
+    width: 100%;
+    background-color: white;
+    padding: 1px;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.form-course {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    background-color: #f1f1f1;
+}
+
+input[type="radio"] {
+    accent-color: black;
+}
+
+button {
+    background-color: #56b460;
+    border: 0;
+    padding: 5px;
+}
+
+textarea {
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+label {
+    font-size: 10px;
+}
+
+label[for=email],
+label[for=password],
+label[for=re-password] {
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 10px;
+    color: #a39e9f;
+    font-family: sans-serif;
+}
+
+select {
+    font-size: 10px;
+    width: 25%;
+}
+
+input[type="tel"] {
+    font-size: 10px;
+}
+
+label[for="course"] {
+    pointer-events: none;
+}
+
+.form-subject div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-gender>div>div>label {
+    position: relative;
+    top: 2px;
+}
+
+.form-gender>div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-gender>div>div,
+.form-terms-and-cond {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

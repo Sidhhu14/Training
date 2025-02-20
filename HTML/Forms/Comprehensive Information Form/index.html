@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comprehensive User Information Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <form id="form-container">
+            <h2>COMPREHENSIVE USER INFORMATION</h2>
+            <fieldset id="personal-information">
+                <legend id="form-personal-info">Personal Information</legend>
+                <div class="form-full-name container">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name" />
+                </div>
+                <div class="form-phone container">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" />
+                </div>
+                <div class="form-email container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email ID" />
+                </div>
+                <div class="form-dob container">
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" id="dob" name="date-of-birth" />
+                </div>
+                <div class="form-gender container">
+                    <label>Gender</label>
+                    <div class="form-gender-options">
+                        <div>
+                            <input type="radio" id="male" name="gender" checked />
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" />
+                            <label for="female">Female</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other" name="gender" />
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset id="educational-details">
+                <legend id="form-education-details">Educational Details</legend>
+                <div class="form-highest-qualification container">
+                    <label for="highest-qualification">Highest Qualification</label>
+                    <input type="text" id="highest-qualification" name="highest-qualification"
+                        placeholder="Enter your Highest Qualification" />
+                </div>
+                <div class="form-university-college container">
+                    <label for="University-college">University/College Name</label>
+                    <input type="text" id="University-college" name="University-college"
+                        placeholder="Enter your University / College Name" />
+                </div>
+                <div class="form-graduation-date container">
+                    <label for="graduation-date">Date of Graduation: </label>
+                    <input type="date" id="graduation-date" name="graduation-date" />
+                </div>
+                <div class="form-education-level container">
+                    <label for="education-level">Educational Level:</label>
+                    <select name="education-level" id="education-level">
+                        <option value="education-level"></option>
+                        <option value="High School">High School</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="Ph.D">Ph.D</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset class="form-job-preferences">
+                <legend id="form-job-preferences">Job Preferences</legend>
+                <div class="form-desired-position container">
+                    <label for="desired-position">Desired Position</label>
+                    <input type="text" id="desired-position" name="desired-position"
+                        placeholder="Enter your Desired Position" />
+                </div>
+                <div class="form-work-location container">
+                    <label for="work-location">Preferred Work Location:</label>
+                    <select name="work-location" id="work-location">
+                        <option value="Select"></option>
+                        <option value="Remote">Remote</option>
+                        <option value="Onsite">Onsite</option>
+                        <option value="Hybrid">Hybrid</option>
+                    </select>
+                </div>
+                <div class="form-employment-type container">
+                    <label>Employment type</label>
+                    <div class="form-employment-type-options">
+                        <div>
+                            <input type="radio" id="full-time" name="employment-type" checked />
+                            <label for="full-time">Full-Time</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="part-time" name="employment-type" />
+                            <label for="part-time">Part-Time</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="contract" name="employment-type" />
+                            <label for="contract">Contract</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div class="form-skills container">
+                    <label>Select Skills</label>
+                    <div>
+                        <input type="checkbox" id="html" name="skills" value="HTML">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="css" name="skills" value="css">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="javascript" name="skills" value="javascript">
+                        <label for="javascript">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="react" name="skills" value="react">
+                        <label for="react">React</label>
+                    </div>
+                </div>
+                <div class="form-additional-notes container">
+                    <label for="additional-notes">Additional Notes</label>
+                    <textarea name="additional-notes" id="additional-notes" rows="3" placeholder="Notes"></textarea>
+                </div>
+            </fieldset>
+            <div class="form-submit">
+                <button type="submit" id="submit" name="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

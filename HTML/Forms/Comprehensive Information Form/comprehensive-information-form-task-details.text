@@ -1,0 +1,43 @@
+Task: Create a Comprehensive User Information Form with Fieldsets
+
+Objective:
+Design a detailed HTML form to collect user information across multiple categories, 
+using `<fieldset>` and `<legend>` to organize sections clearly. 
+This form should be suitable for a resume or job application system, including all essential form elements for comprehensive data collection.
+
+Requirements:
+
+1. Layout & Structure:
+   Use a single HTML form.
+   1. Organize inputs into four fieldset sections: 
+      Personal Information, Educational Details, Job Preferences, and Additional Information.
+   2. Use a legend for each section for better readability and structure.
+
+2. Form Fields:
+   Personal Information:
+     1. Text inputs for Full Name and Phone Number.
+     2. Email and Date inputs for Email and Date of Birth.
+     3. Radio buttons for Gender selection.
+
+   Educational Details:
+     1. Text inputs for Highest Qualification and University/College.
+     2. Date input for Graduation Year.
+     3. Dropdown to select Education Level (High School, Bachelor's degree, Master's degree, Ph.D)
+
+   Job Preferences:
+     1. Text input for Desired Position.
+     2. Dropdown for Preferred Work Location (Remote, Onsite, Hybrid).
+     3. Radio buttons for Employment Type (Full-Time, Part-Time, Contract).
+
+   Additional Information:
+     1. Checkboxes to select Skills (HTML, CSS, JavaScript, React).
+     2. A textarea for Additional Notes.
+
+3. Styling:
+   Apply basic CSS to style the form elements, including borders for fieldsets, padding for inputs, and button styling.
+
+4. Submit Button:
+   A button to submit the form, centered content below the last fieldset.
+
+Expected Outcome:
+A visually organized, easy-to-navigate HTML form that collects all essential information across different categories in a structured format using `<fieldset>` and `<legend>`.

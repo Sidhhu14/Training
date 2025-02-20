@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f9fd;
+}
+
+#form-container {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-gender-options,
+.form-employment-type-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-gender>div>div>label,
+.form-employment-type>div>div>label,
+.form-skills>div>label {
+    color: black;
+    position: relative;
+    bottom: 1px;
+}
+
+button {
+    width: 100%;
+    background-color: #1976d3;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-gender-options,
+.form-employment-type-options {
+    position: relative;
+    left: -6px;
+}
+
+
+label {
+    color: #1976d3;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #115292;
+}
+
+input:focus {
+    border: 2px solid #115292;
+    outline: none;
+}
+
+input {
+    border-radius: 2px;
+}

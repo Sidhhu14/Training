@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactInfo {
+    width: 40%;
+    background-color: rgb(1, 124, 254);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+}
+
+.contactInfo h1 {
+    color: white;
+}
+
+.contactInfo p {
+    color: white;
+}
+
+.white-icon {
+    color: white;
+}
+
+.details {
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 3%;
+}
+
+.box {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(229, 229, 229);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-family: 'Arial', 'sans-serif';
+}
+
+.message {
+    resize: vertical;
+}
+
+.submit {
+    width: 20%;
+    background-color: rgb(1, 124, 254);
+    color: white;
+    border: 0;
+}

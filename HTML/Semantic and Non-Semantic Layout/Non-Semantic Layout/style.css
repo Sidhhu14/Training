@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display:flex;
+    flex-direction:row;
+}
+
+#parent {
+    /* height: calc(100% - 20px); */
+    background-color: #FFB6C1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    /* width:100%; */
+}
+
+.header {
+    height: 10%;
+    background-color: #98FB98;
+}
+
+.main {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.single-item {
+    width: 40%;
+    background-color: green;
+}
+
+.triad-item {
+    width: 60%;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+    gap:10px;
+}
+
+.triad-item-1,
+.triad-item-2,
+.triad-item-3 {
+    height: 30%;
+    width: 33.3%;
+    background-color: white;
+}
+
+.footer {
+    height: 10%;
+    background-color: #98FB98;
+}

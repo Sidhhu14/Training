@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-02</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <table>
+            <caption>Invoice</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Item / Desc.</th>
+                    <th scope="col">Qty.</th>
+                    <th scope="col">@</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paperclips (Box)</td>
+                    <td>100</td>
+                    <td>1.15</td>
+                    <td>115.00</td>
+                </tr>
+                <tr>
+                    <td>Paper (Case)</td>
+                    <td>10</td>
+                    <td>45.99</td>
+                    <td>459.3</td>
+                </tr>
+                <tr>
+                    <td style="border:0;">Wastepaper</td>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">17.99</td>
+                    <td rowspan="2">35.98</td>
+                </tr>
+                <tr>
+                    <td style="border:0;">Baskets</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3" scope="row">Subtotal</th>
+                    <td>620.8</td>
+                </tr>
+                <tr>
+                    <th colspan="2" scope="row">Tax</th>
+                    <td>7%</td>
+                    <td>42.76</td>
+                </tr>
+                <tr>
+                    <th colspan="3" scope="row">Total</th>
+                    <td>653.64</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#parent {
+    padding: 10px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+caption {
+    padding: 20px;
+}
+
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+tbody>tr:nth-of-type(odd) {
+    background-color: rgb(250, 250, 250);
+}
+
+thead>tr>td {
+    background-color: rgb(250, 250, 250);
+}
+
+td {
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
