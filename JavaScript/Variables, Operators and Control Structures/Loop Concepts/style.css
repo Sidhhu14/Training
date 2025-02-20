@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fd;
+    padding: 10px;
+    height: calc(100% - 20px);
+}
+
+#parent {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 3px;
+}
+
+#displayButton {
+    text-align: center;
+    background-color: #1976d3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}

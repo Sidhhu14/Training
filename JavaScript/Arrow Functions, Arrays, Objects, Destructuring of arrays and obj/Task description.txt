@@ -1,0 +1,21 @@
+1. Arrow Functions
+--------------------
+Task: Filter Positive Numbers
+Create an arrow function that filters positive numbers and log the result in console.
+ 
+2. Working with Arrays
+-----------------------
+Task: Add and Remove Numbers
+Use an array to store numbers and access, add or remove elements using push and pop and log the result in console.
+ 
+3. Working with Objects
+------------------------
+Task: create, update and delete object
+Use and object to store properties and perform accessing object properties, update and delete and log the result in console.
+ 
+4. Destructing 
+----------------
+Task: Create and array and extract elements into variables and log the result
+Task: Create and object and extract elements into variables and log the result
+ 
+NOTE: Just create the HTML and add the script file, no need for additional HTML content.

@@ -1,0 +1,16 @@
+PROMISES
+-------------------------------
+ 
+1. Basic Promise Task: Fetching User Info
+Task Description:
+Create a promise to fetch user object (any properties) after 1 second (use setTimeout for delay) and log it to the console.
+ 
+2. Promise Chaining
+Task Description:
+Create a function that doubles a given number after a delay of 1 second. 
+Then, chain multiple .then() calls to double the number three times. Log the final result.
+
+3. Handling Errors
+Task Description:
+Create a promise that rejects with an error message "Something went wrong!" after a delay of 2 seconds. 
+Handle the error using .catch() and log the error message to the console.

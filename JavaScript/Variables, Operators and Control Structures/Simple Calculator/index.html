@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="parent">
+        <h1>Simple Calcualtor</h1>
+        <div id="container1" class="flex-row container">
+            <h3>Addition:</h3>
+            <input type="text" id="sumOperand1" name="sumOperand1" placeholder="0">
+            <span>+</span>
+            <input type="text" id="sumOperand2" name="sumOperand2" placeholder="0">
+            <span>=</span>
+            <span id="resultSum" class="result">0</span>
+            <input type="button" id="add" value="Add">
+        </div>
+        <div id="container2" class="flex-row container">
+            <h3>Subtraction:</h3>
+            <input type="text" id="subOperand1" name="subOperand1" placeholder="0">
+            <span>-</span>
+            <input type="text" id="subOperand2" name="subOperand2" placeholder="0">
+            <span>=</span>
+            <span id="resultSub" class="result">0</span>
+            <input type="button" id="subtract" value="Subtract">
+        </div>
+        <div id="container3" class="flex-row container">
+            <h3>Multiply:</h3>
+            <input type="text" id="mulOperand1" name="mulOperand1" placeholder="0">
+            <span>*</span>
+            <input type="text" id="mulOperand2" name="mulOperand2" placeholder="0">
+            <span>=</span>
+            <span id="resultMul" class="result">0</span>
+            <input type="button" id="multiply" value="Multiply">
+        </div>
+        <div id="container4" class="flex-row container">
+            <h3>Divide:</h3>
+            <input type="text" id="divOperand1" name="divOperand1" placeholder="0">
+            <span>/</span>
+            <input type="text" id="divOperand2" name="divOperand2" placeholder="0">
+            <span>=</span>
+            <span id="resultDiv" class="result">0</span>
+            <input type="button" id="divide" value="Divide">
+        </div>
+    </div>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+
+</html>
