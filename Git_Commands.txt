@@ -1,20 +1,9 @@
-1. git init
-2. git status
-3. git add CSS/
-4. git status
-5. git commit - press i , enter a message then press esc and enter :wq
-6. git status
-7. git remote add origin https://github.com/Sidhhu14/Training.git
-8. git push origin master
-9. git add HTML/
-10. git commit -m "Complete HTML Practice tasks"
-11. git push origin master
-12. git branch sud-javascript-feb20
-13. git checkout sud-javascript-feb20
-14. git status
-15. git add JavaScript/
-16. git commit -m "JavaScript Training Files"
-17. git checkout master
-18. git pull
-19. git merge sud-javascript-feb20
-
+git remote add origin https://github.com/Sidhhu14/Training.git
+git status
+git add .
+git commit -m "Enter a message"
+git push origin feature-branch-name
+create a PR and submit for review
+git checkout master
+git pull
+git merge sud-gitcommands-feb21
